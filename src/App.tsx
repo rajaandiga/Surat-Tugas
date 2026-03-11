@@ -394,7 +394,7 @@ export default function App() {
 
         {/* HALAMAN 2 - LAMPIRAN */}
         <div className="paper page-break" id="halaman2">
-          <div className="lampiran-header">
+          <div className="lampiran-header flex justify-end">
             <table className="lampiran-meta">
               <tbody>
                 <tr>
@@ -446,13 +446,6 @@ export default function App() {
      ))}
             </tbody>
           </table>
-
-          <div className="ttd-area !mt-12">
-            <div className="ttd-content">
-              <div className="h-24"></div>
-              <div className="ttd-nama">{formData.pejabat || 'Aidil Adha'}</div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

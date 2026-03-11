@@ -5,7 +5,7 @@
 
 import React, { useState, useEffect } from 'react';
 
-const DRIVE_FOLDER_URL = "https://drive.google.com/drive/u/0/folders/1VdQsiSeO8dV-En0M5-CBkDpxNivbzO1K";
+const DRIVE_FOLDER_URL = "https://drive.google.com/drive/folders/1YvkYGynLeXFkk9ITB5RV5Xq4LFmOmvls";
 
 interface Peserta {
   nama: string;

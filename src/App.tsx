@@ -38,7 +38,7 @@ export default function App() {
   
   const [formData, setFormData] = useState({
     nomor: '',
-    menimbang: '',
+    menimbang: 'Bahwa dalam Rangka Kegiatan',
     nama: '',
     nip: '',
     pangkat: '',
@@ -48,7 +48,7 @@ export default function App() {
     waktu: '',
     tempat: 'Jambi',
     tanggal: '',
-    pejabat: 'Aidil Adha', // Default without titles as requested
+    pejabat: 'Aidil Adha', 
     lampiranJudul: 'Daftar Nama Peserta Pelatihan',
     lampiranSubjudul: '',
   });
